@@ -1,0 +1,28 @@
+#add-todo{
+    margin-right:540px;
+    float:right;
+    text-align:left;
+    border: black;
+    margin-top: -35px;
+}
+
+#add-todo input[type="text"]{
+
+    flex-grow: 50;
+    padding: 10px;
+    border: 2px solid #7f4cc1;
+    border-radius: 4px 0 0 4px;
+    color: #777;
+}
+
+#add-todo button{
+
+    flex-grow: 3;
+    padding: 10px;
+    background: #7f4cc1;
+    border-radius: 0 4px 4px 0;
+    border: 2px solid #7f4cc1;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
